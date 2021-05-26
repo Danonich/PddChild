@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Balsamiq+Sans:ital,wght@1,700&family=Caveat:wght@600&family=Lobster&family=Stick&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 18px Verdana;
+	color: #FFF;
+  background-image: url("../memoria/img/game-bg.png");
+  background-size: cover;
+}
+
+#title{
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    text-align:center;
+    background:darkblue;
+    border-radius: 10px;
+}
+
+#title h1{
+    font-family: 'Balsamiq Sans', bold;
+    font-weight: 1000;
+    font-size: 50px;
+
+}
+
+#picbox {
+	margin: 0px auto;
+	width: 640px;
+}
+#boxcard {
+	z-index: 1;
+	margin: 10px 0 0;
+}
+#boxcard div{
+	float: left;
+	width: 125px;
+	height: 125px;
+	margin: 5px;
+	padding: 5px;
+	border: 4px solid #2a47ee;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 0 1px 5px rgba(0,0,0,.5);
+  background: #3553d8;
+	z-index: 2;
+}
+#boxcard div img {
+	width:100%;
+    height:100%;
+    display: none;
+	border-radius: 10px;
+	z-index: 3;
+}
+#boxbuttons {
+	text-align: center;
+	margin: 20px;
+	display: block;
+}
+#boxbuttons .button {
+	text-transform: uppercase;
+	background: #2a47ee;
+	padding: 5px 10px;
+	margin: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#boxbuttons .button:hover {
+	background: #0106ff;
+}

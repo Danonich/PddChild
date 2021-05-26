@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Balsamiq+Sans:ital,wght@1,700&family=Caveat:wght@600&family=Lobster&family=Stick&display=swap');
+
+  /*Animation*/
+.intro {
+  display: flex;
+  width: 100%;
+  height: 85%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.centre_logo{
+  padding-inline-start: 10%;
+  position: relative;
+}
+
+.intro__inner {
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro__wrapper span{
+  text-transform: uppercase;
+  display: block;
+}
+
+.text1{
+  color: #ffffff;
+  text-shadow: #000000 0 0 5px, #000000 0 0 5px,
+  #000000 0 0 5px,#000000 0 0 5px;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  margin-bottom: 30px;
+  background: #a62800;
+  position: relative;
+  animation: text 3s 1;
+   
+}
+
+.text2{
+    color: #ffffff;
+    text-shadow: #000000 0 0 5px, #000000 0 0 5px,
+  #000000 0 0 5px,#000000 0 0 5px;
+    font-size: 30px;
+  }
+
+  @keyframes text{
+    0%{
+      color: #000;
+      margin-bottom: -60px;
+    }
+    30%{
+      letter-spacing: 25px;
+      margin-bottom: -60px;
+    }
+    85%{
+      letter-spacing: 8px;
+      margin-bottom: -60px;
+    }
+  }
+
+  /*Title text*/
+
+.info{
+  width:100%;
+  height: 1000px;
+  align-items: center;
+  
+}
+
+.messager{
+  margin-left:auto;
+  margin-right:auto;
+  position: relative;
+  top: 150px;
+  text-align: right;
+  width: 1475px;
+  height: 800px;
+  overflow:hidden;
+  border:13px solid #6076bb; 
+  border-radius:20px;
+  background-color: #beceff;
+}
+
+.msngr-header{
+  position:sticky;
+  top:0;
+  z-index:1;
+  width:100%;
+  height:50px;
+  background-color: #6076bb;
+  text-align: left;
+}
+
+.msngr-header c{
+  padding-left:20px;
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.ms{
+  margin-bottom: 25px;
+}
+
+.message{
+  display: inline-block;
+  position: relative;
+  padding-inline-start: 10px;
+  top: 20px;
+  border: 2px solid #000;
+  border-radius: 30px;
+  background-color:#fff;
+  
+ 
+}
+.message t1{
+  padding: 10px 10px;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size:30px;
+}
+
+.choose-log{
+  width:100%;
+  height:300px;
+  align-items: left;
+  text-align: left;
+
+}
+
+.reply{
+  display: inline-block;
+  position: relative;
+  padding-inline-start: 10px;
+  top: 20px;
+
+}
+
+.reply a.button {
+  font-weight: 500;
+  font-size: 30px;
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 0 -3px #9e9e9e inset;
+  transition: 0.2s;
+} 
+.reply a.button:hover { background: #9e9e9e; }
+.reply a.button:active {
+  background: rgb(199, 199, 199);
+  box-shadow: 0 3px rgb(199, 199, 199) inset;
+}
